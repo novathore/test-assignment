@@ -1,0 +1,16 @@
+
+.Container {
+  width: 385px;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+
+  &__Caption {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 23px;
+    border-bottom: 1px solid #27282C;
+  }
+}
