@@ -53,7 +53,7 @@ function PluginUploadForm({closeUploadForm}: IPluginUploadForm) {
                     <Input containerOuterStyles={s.input} onChange={(change) => handleInputChange({name: change})} labelOuterStyles={s.label} label='Name'/>
                     <Input containerOuterStyles={s.input} onChange={(change) => handleInputChange({author: change})} labelOuterStyles={s.label} label='Author name'/>
                     <Input containerOuterStyles={s.input} onChange={(change) => handleInputChange({icon: change})} labelOuterStyles={s.label} label='Icon' placeHolder='URL to an image'/>
-                    <Input containerOuterStyles={classNames(s.input, s.input__description)} onChange={(change) => handleInputChange({fullDescription: change})} labelOuterStyles={s.label} label='Description' placeHolder='Optional'/>
+                    <Input containerOuterStyles={classNames(s.input, s.input__description)} type="textarea" onChange={(change) => handleInputChange({fullDescription: change})} labelOuterStyles={s.label} label='Description' placeHolder='Optional'/>
                 </form>
                 <div className={s.card}>
                     <span className={s.card__label}>Card Preview</span>

@@ -32,16 +32,22 @@
     background: #FFFFFF;
     padding: 10px 15px;
   }
+  textarea {
+    color: black;
+    background: #FFFFFF;
+    padding: 10px 15px;
+  }
   &:last-child {
     margin-bottom: 0;
   }
 
   &__description {
-    input {
+    textarea {
       height: 135px;
     }
   }
 }
+
 
 .label {
   margin-bottom: 7px;

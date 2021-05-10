@@ -11,14 +11,16 @@ export interface IInput {
     onChange?: (string) => void;
     label?: string;
     labelOuterStyles?: any;
+    type?: string;
 }
 
-function Input({ icon, containerOuterStyles, placeHolder, onChange, label, labelOuterStyles }: IInput) {
+function Input({ icon, containerOuterStyles, placeHolder, onChange, label, labelOuterStyles, type }: IInput) {
     return (
         <React.Fragment>
             {label && renderInputLabel(label, labelOuterStyles)}
             <div className={classNames(s.container, containerOuterStyles)}>
-                <input placeholder={placeHolder} onChange={(e) => onChange(e.target.value)}/>
+                {type === 'textarea' && <textarea placeholder={placeHolder} onChange={(e) => onChange(e.target.value)} />}
+                {type !== 'textarea' && <input placeholder={placeHolder} onChange={(e) => onChange(e.target.value)}/>}
                 {icon && renderIcon(icon)}
             </div>
         </React.Fragment>
