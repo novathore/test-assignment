@@ -13,7 +13,7 @@ function Header({onClick}: IHeaderProps) {
     return (
         <div className={s.container}>
             <div className={cs.flexRow}>
-                <img src={jetBrainsLogo}/>
+                <img className={s.img} src={jetBrainsLogo}/>
                 <div className={s.container__info}>
                     <span>Marketplace</span>
                 </div>

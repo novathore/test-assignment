@@ -22,7 +22,7 @@ function Search({searchPlaceHolder, searchSubmit}: ISearchParams) {
             <div className={s.container}>
                 <div className={s.searchbar}>
                     <span className={s.searchbar__caption}>Explore plugins for JetBrains Products</span>
-                    <Input icon={icon} placeHolder={searchPlaceHolder} containerOuterStyles={s.searchbar__input} onChange={(search) => setSearchString(search)}/>
+                    <Input onIconClick={() => searchSubmit(searchString)} icon={icon} placeHolder={searchPlaceHolder} outerIconStyles={s.searchbar__input_icon} containerOuterStyles={s.searchbar__input} onChange={(search) => setSearchString(search)}/>
                 </div>
             </div>
         </form>

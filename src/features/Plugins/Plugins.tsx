@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import Header from "./components/Header/Header";
 import Search from "./components/Search/Search";
-import Footer from "./components/Footer/Footer";
 import Dialog from "src/shared/Dialog/DIalog";
 import {IGetPluginsParams, IPluginEntity, PLUGINS_CATEGORY} from "./api/jetbrains/jetbrains.api";
 import {
@@ -115,8 +114,6 @@ function Plugins() {
                         <WidgetList openDialog={openDialog} payload={latestPluginsItems} caption='Latest Additions' loading={searchByCategoryLoading}/>
                     </div>
                 }
-
-            <Footer/>
             <Dialog openState={isOpen} component={component} onBackDropClick={closeDialog} dialogMode={true}/>
         </React.Fragment>
     );

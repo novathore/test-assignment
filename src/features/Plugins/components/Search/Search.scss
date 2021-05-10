@@ -26,5 +26,9 @@
 
   &__input {
     margin: 35px 14px 0 22px;
+
+    &_icon {
+      cursor: pointer;
+    }
   }
 }

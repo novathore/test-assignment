@@ -14,10 +14,11 @@ export interface IIcon {
     width?: number;
     height?: number;
     icon: ICONS;
+    onClick?: () => void;
 }
 
 function Icon(props: IIcon) {
-    const { size, icon, width, height } = props;
+    const { size, icon, width, height, onClick } = props;
     const style = {
         backgroundSize: `${size}px`,
         width: `${size || width}px`,
@@ -25,7 +26,7 @@ function Icon(props: IIcon) {
     };
 
     return (
-        <div style={style} className={s[icon]}/>
+        <div onClick={onClick} style={style} className={s[icon]}/>
     );
 }
 

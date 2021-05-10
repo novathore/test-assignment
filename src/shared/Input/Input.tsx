@@ -12,25 +12,27 @@ export interface IInput {
     label?: string;
     labelOuterStyles?: any;
     type?: string;
+    onIconClick?: (s: string) => void;
+    outerIconStyles?: any;
 }
 
-function Input({ icon, containerOuterStyles, placeHolder, onChange, label, labelOuterStyles, type }: IInput) {
+function Input({ icon, containerOuterStyles, placeHolder, onChange, label, labelOuterStyles, type, onIconClick, outerIconStyles }: IInput) {
     return (
         <React.Fragment>
             {label && renderInputLabel(label, labelOuterStyles)}
             <div className={classNames(s.container, containerOuterStyles)}>
                 {type === 'textarea' && <textarea placeholder={placeHolder} onChange={(e) => onChange(e.target.value)} />}
                 {type !== 'textarea' && <input placeholder={placeHolder} onChange={(e) => onChange(e.target.value)}/>}
-                {icon && renderIcon(icon)}
+                {icon && renderIcon(icon, onIconClick, outerIconStyles)}
             </div>
         </React.Fragment>
     );
 }
 
-function renderIcon(icon: IIcon) {
+function renderIcon(icon: IIcon, onIconClick, outerIconStyles) {
     return (
-        <div className={classNames(cs.flexCenter, cs.flexRow, cs['p-r-5'])}>
-            <Icon size={icon.size} icon={icon.icon}/>
+        <div className={classNames(cs.flexCenter, cs.flexRow, cs['p-r-5'], outerIconStyles)}>
+            <Icon onClick={onIconClick} size={icon.size} icon={icon.icon}/>
         </div>
     )
 }
