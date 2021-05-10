@@ -1,10 +1,76 @@
 
-.container {
-
+.card {
+  padding-left: 49px;
+  display: flex;
+  flex-direction: column;
+  &__label {
+    font-size: 15px;
+    margin-bottom: 7px;
+  }
 }
 
-.form {}
+.form {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgba(39, 40, 44, 0.4);
+  padding-right: 47px;
+  width: 400px;
+}
 
-.splitter {
+.caption {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
 
+.input {
+  flex-direction: column;
+  border: 1px solid rgba(39, 40, 44, 0.4);
+  margin-bottom: 16px;
+  input {
+    color: black;
+    background: #FFFFFF;
+    padding: 10px 15px;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__description {
+    input {
+      height: 135px;
+    }
+  }
+}
+
+.label {
+  margin-bottom: 7px;
+  font-size: 15px;
+}
+
+.buttons {
+  margin-top: 32px;
+  display: flex;
+  justify-content: flex-start;
+  &__button {
+    background: rgb(22, 125, 255);
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    &:hover {
+      background: rgba(22, 125, 255, 0.8);
+    }
+    &:last-child {
+      margin-left: 9px;
+      background: white;
+      color: black;
+      border: 1px solid rgba(39, 40, 44, 0.4);
+      &:hover {
+        background: rgba(39, 40, 44, 0.4);
+      }
+    }
+  }
+  &__loading {
+    height: 15px;
+  }
 }

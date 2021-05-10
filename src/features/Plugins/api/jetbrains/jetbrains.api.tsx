@@ -18,23 +18,23 @@ export enum PLUGIN_ACTIONS_URI_MAP {
 }
 
 export interface IPluginEntity {
-    id: string;
-    name: string;
-    downloads: number;
-    date: number;
-    author: string;
-    rating: number;
-    description: string;
-    icon: string,
-    fullDescription: string;
+    id?: string;
+    name?: string;
+    downloads?: number;
+    date?: number;
+    author?: string;
+    rating?: number;
+    description?: string;
+    icon?: string,
+    fullDescription?: string;
 }
 
 export interface IPluginUploadBody {
-    name: string;
-    author: string;
-    description: string;
-    icon: string;
-    fullDescription: string;
+    name?: string;
+    author?: string;
+    icon?: string;
+    fullDescription?: string;
+    description?: string;
 }
 
 export interface IGetPluginsParams {

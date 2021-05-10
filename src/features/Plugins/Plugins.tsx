@@ -44,7 +44,9 @@ function Plugins() {
     }
 
     const handleHeaderClick = () => {
-        console.log('headerClick');
+        const component = createPluginUploadForm(() => setIsOpen(false));
+        setComponent(component);
+        setIsOpen(true);
     }
 
     const liveScroll = () => {
@@ -113,8 +115,8 @@ function createCardPreview(id, closePreview) {
     return <CardPreview id={id} closePreview={closePreview}/>
 }
 
-function createPluginUploadForm() {
-    return <PluginUploadForm/>
+function createPluginUploadForm(closeUploadPluginForm) {
+    return <PluginUploadForm closeUploadForm={closeUploadPluginForm}/>
 }
 
 function searchPopularAndAdditions(dispatch) {
@@ -133,15 +135,3 @@ function searchPopularAndAdditions(dispatch) {
 }
 
 export default Plugins;
-
-// dispatch(uploadPlugin({
-//     name: 'new plugin',
-//     author: 'Me',
-//     description: 'Some discription',
-//     icon: 'foo/bar.svg',
-//     fullDescription: 'full desc'
-// }));
-
-// dispatch(fetchPlugin(12));
-
-// dispatch(deletePlugin(13));

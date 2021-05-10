@@ -4,7 +4,7 @@
   height: 310px;
   display: flex;
   flex-direction: column;
-  border: 1px solid grey;
+  border: 1px solid rgba(39, 40, 44, 0.4);
 
   &__caption {
     height: 110px;
@@ -12,11 +12,17 @@
     align-items: center;
     justify-content: flex-start;
     padding-left: 23px;
-    border-bottom: 1px solid #27282C;
+    border-bottom: 1px solid rgba(39, 40, 44, 0.4);
+
+    &_icon {
+      width: 40px;
+      height: 40px;
+    }
   }
   &__description {
     flex: auto;
     padding: 22px 24px 0;
     border-bottom: 1px solid grey;
+    color: rgba(39, 40, 44, 0.7);
   }
 }

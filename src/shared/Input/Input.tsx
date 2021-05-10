@@ -6,17 +6,22 @@ import Icon, {IIcon} from "../Icon/Icon";
 
 export interface IInput {
     icon?: IIcon;
-    outerStyles?: { [key in string]: any };
+    containerOuterStyles?: any;
     placeHolder?: string;
-    onChange: (string) => void;
+    onChange?: (string) => void;
+    label?: string;
+    labelOuterStyles?: any;
 }
 
-function Input({ icon, outerStyles, placeHolder, onChange }: IInput) {
+function Input({ icon, containerOuterStyles, placeHolder, onChange, label, labelOuterStyles }: IInput) {
     return (
-        <div className={classNames(s.container, outerStyles)}>
-            <input placeholder={placeHolder} onChange={(e) => onChange(e.target.value)}/>
-            {icon && renderIcon(icon)}
-        </div>
+        <React.Fragment>
+            {label && renderInputLabel(label, labelOuterStyles)}
+            <div className={classNames(s.container, containerOuterStyles)}>
+                <input placeholder={placeHolder} onChange={(e) => onChange(e.target.value)}/>
+                {icon && renderIcon(icon)}
+            </div>
+        </React.Fragment>
     );
 }
 
@@ -25,6 +30,12 @@ function renderIcon(icon: IIcon) {
         <div className={classNames(cs.flexCenter, cs.flexRow, cs['p-r-5'])}>
             <Icon size={icon.size} icon={icon.icon}/>
         </div>
+    )
+}
+
+function renderInputLabel(label: string, labelOuterStyles: any) {
+    return (
+        <span className={classNames(s.label, labelOuterStyles)}>{label}</span>
     )
 }
 

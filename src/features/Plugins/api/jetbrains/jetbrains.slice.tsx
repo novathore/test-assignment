@@ -39,6 +39,8 @@ export enum LOADING_STATE_TYPES {
 
 export interface PluginState extends EntityState<IPluginEntity> {
     loadingStatus: LOADING_STATE_TYPES;
+    uploadStatus: LOADING_STATE_TYPES;
+    deleteStatus: LOADING_STATE_TYPES;
     error: string;
     total?: number;
 }
@@ -69,6 +71,7 @@ export const searchPlugins = createAsyncThunk(
 );
 
 export const clearSearchStore = createAction('searchPlugins/clearSearchStore');
+export const setCommonLoadingStatesToDefault = createAction('commonActions/setCommonLoadingStatesToDefault')
 
 export const pluginsSlice = createSlice({
     name: pluginFeatureKey,
@@ -76,13 +79,6 @@ export const pluginsSlice = createSlice({
     reducers: {},
     extraReducers: (builder) => {
         builder
-            .addCase(
-                uploadPlugin.fulfilled,
-                (state: PluginState, action: PayloadAction<IPluginEntity>) => {
-                    state.loadingStatus = LOADING_STATE_TYPES.COMPLETE;
-                    pluginsAdapter.upsertOne(state, action.payload);
-                }
-            )
             .addCase(deletePlugin.fulfilled, (state: PluginState, action) => {
                 pluginsAdapter.removeOne(state, action.meta.arg);
             })
@@ -123,7 +119,13 @@ export const pluginsSlice = createSlice({
 export const commonPluginActionsSlice = createSlice({
     name: commonPluginActionsFeatureKey,
     initialState: commonPluginActionsAdapter.getInitialState(),
-    reducers: {},
+    reducers: {
+        setCommonLoadingStatesToDefault: (state: PluginState, action: PayloadAction<number>) => {
+            state.uploadStatus = undefined;
+            state.deleteStatus = undefined;
+            state.loadingStatus = undefined;
+        }
+    },
     extraReducers: (builder) => {
         // @ts-ignore
         builder
@@ -144,15 +146,15 @@ export const commonPluginActionsSlice = createSlice({
             .addCase(
                 uploadPlugin.fulfilled,
                 (state: PluginState, action: PayloadAction<IPluginEntity>) => {
-                    state.loadingStatus = LOADING_STATE_TYPES.COMPLETE;
+                    state.uploadStatus = LOADING_STATE_TYPES.COMPLETE;
                     pluginsAdapter.upsertOne(state, action.payload);
                 }
             )
             .addCase(uploadPlugin.pending, (state: PluginState) => {
-                state.loadingStatus = LOADING_STATE_TYPES.PROGRESS;
+                state.uploadStatus = LOADING_STATE_TYPES.PROGRESS;
             })
             .addCase(uploadPlugin.rejected, (state: PluginState, action) => {
-                state.loadingStatus = LOADING_STATE_TYPES.ERROR;
+                state.uploadStatus = LOADING_STATE_TYPES.ERROR;
                 state.error = action.error.message;
             })
             .addCase(
@@ -180,13 +182,6 @@ export const pluginsSearchSlice = createSlice({
     },
     extraReducers: (builder) => {
         builder
-            .addCase(
-                uploadPlugin.fulfilled,
-                (state: PluginState, action: PayloadAction<IPluginEntity>) => {
-                    state.loadingStatus = LOADING_STATE_TYPES.COMPLETE;
-                    pluginsAdapter.upsertOne(state, action.payload);
-                }
-            )
             .addCase(deletePlugin.fulfilled, (state: PluginState, action) => {
                 pluginsAdapter.removeOne(state, action.meta.arg);
             })
@@ -246,6 +241,9 @@ export const getCommonActionsPluginsState = (rootState: unknown) =>
     rootState[commonPluginActionsFeatureKey];
 export const commonPluginActionLoadingState = createSelector(getCommonActionsPluginsState, (state) => {
     return state.loadingStatus
+});
+export const uploadPluginLoadingState = createSelector(getCommonActionsPluginsState, (state) => {
+    return state.uploadStatus;
 });
 export const getPluginEntity = id => createSelector(getCommonActionsPluginsState, (state) => commonPluginActionsSelector.selectById(state, id));
 
