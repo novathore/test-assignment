@@ -12,8 +12,7 @@ module.exports = function(env) {
             contentBase: path.resolve(__dirname, 'dist'),
             host: '0.0.0.0',
             proxy: {
-                '/plugins': 'http://localhost:8070',
-                pathRewrite: { '^/api': '' }
+                '/plugins': 'http://localhost:8070'
             }
         },
     };

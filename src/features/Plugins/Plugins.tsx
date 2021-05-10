@@ -73,6 +73,7 @@ function Plugins() {
         }
 
         setSearchString(s);
+        setLoadOnIntersectionAvailable(true);
 
         if (!s) {
             searchPopularAndAdditions(dispatch);
@@ -94,17 +95,27 @@ function Plugins() {
         <React.Fragment>
             <Header onClick={handleHeaderClick}/>
             <Search searchSubmit={handleSearchSubmit} searchPlaceHolder={placeHolder}/>
-                {searchString ?
-                    <LiveScroll loading={searchByQueryLoading} onScrollEnd={liveScroll} loadOnIntersectionAvailable={loadOnIntersectionAvailable}>
+                {
+                    searchString && searchPluginsItems?.length > 0 && <LiveScroll loading={searchByQueryLoading} onScrollEnd={liveScroll} loadOnIntersectionAvailable={loadOnIntersectionAvailable}>
                         <div className={s.widgetList}>
                             <WidgetList openDialog={openDialog} payload={searchPluginsItems}/>
                         </div>
-                    </LiveScroll> :
-                    <div className={s.widgetList}>
+                    </LiveScroll>
+
+                }
+                {
+                    searchString && searchPluginsItems?.length === 0 &&
+                    <div className={s.notFound}>
+                        <span>Plugins with name " {searchString} " does not exist</span>
+                    </div>
+                }
+                {
+                    !searchString && <div className={s.widgetList}>
                         <WidgetList openDialog={openDialog} payload={popularPluginsItems} caption='Most Popular' loading={searchByCategoryLoading}/>
                         <WidgetList openDialog={openDialog} payload={latestPluginsItems} caption='Latest Additions' loading={searchByCategoryLoading}/>
                     </div>
                 }
+
             <Footer/>
             <Dialog openState={isOpen} component={component} onBackDropClick={closeDialog} dialogMode={true}/>
         </React.Fragment>
