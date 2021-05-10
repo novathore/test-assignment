@@ -2,80 +2,120 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ceff3ab-770e-481c-832e-a4dd5ba15219" name="Default Changelist" comment="Initialize project using Create React App">
-      <change afterPath="$PROJECT_DIR$/src/assets/background.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Black.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Black.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Black.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-BlackItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-BlackItalic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-BlackItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-BlackItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Bold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-BoldItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-BoldItalic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-BoldItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-BoldItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-LightItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-LightItalic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-LightItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-LightItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Medium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Medium.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-MediumItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-MediumItalic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-MediumItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro-MediumItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GothamPro.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/gotham.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jetbrains-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/Card/Card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/Card/Card.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/PluginCaption/PluginCaption.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/PluginDownloads/PluginDownloads.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/PluginDownloads/PluginDownloads.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/Stars/Stars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/Stars/Stars.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/more_vert.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/star_blue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/star_grey.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/loader.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/declarations.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Plugins/Plugins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Plugins/Plugins.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Plugins/api/jetbrains/jetbrains.api.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Plugins/api/jetbrains/jetbrains.slice.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Plugins/components/CardPreview/CardPreview.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Plugins/components/CardPreview/CardPreview.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Plugins/components/Footer/Footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Plugins/components/Footer/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Plugins/components/Header/Header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Plugins/components/Header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Plugins/components/PluginUploadForm/PluginUploadForm.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Plugins/components/PluginUploadForm/PluginUploadForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Plugins/components/Search/Search.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Plugins/components/Search/Search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Plugins/components/WidgetList/WidgetList.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Plugins/components/WidgetList/WidgetList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Plugins/shared/Card/Card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Plugins/shared/PluginCaption/PluginCaption.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Plugins/shared/PluginCaption/PluginCaption.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Plugins/shared/PluginDownloads/PluginDownloads.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/Dialog/DIalog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/Dialog/Dialog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/Icon/Icon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/Icon/Icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/Input/Input.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/Input/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/LiveScroll/LiveScroll.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/LiveScroll/LiveScroll.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/Loader/Loader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/Loader/Loader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.common.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.dev.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/alias.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/background.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/background.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Black.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-Black.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Black.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-Black.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Black.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-Black.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Black.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-Black.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Black.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-Black.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-BlackItalic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-BlackItalic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-BlackItalic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-BlackItalic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-BlackItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-BlackItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-BlackItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-BlackItalic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-BlackItalic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-BlackItalic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Bold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-Bold.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Bold.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-Bold.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-Bold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-Bold.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-BoldItalic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-BoldItalic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-BoldItalic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-BoldItalic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-BoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-BoldItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-BoldItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-BoldItalic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-BoldItalic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-BoldItalic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Italic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-Italic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Italic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-Italic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-Italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-Italic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-Italic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Light.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-Light.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Light.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-Light.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-Light.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-Light.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Light.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-Light.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-LightItalic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-LightItalic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-LightItalic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-LightItalic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-LightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-LightItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-LightItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-LightItalic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-LightItalic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-LightItalic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Medium.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-Medium.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Medium.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-Medium.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-Medium.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-Medium.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-Medium.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-Medium.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-MediumItalic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-MediumItalic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-MediumItalic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-MediumItalic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-MediumItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-MediumItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-MediumItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-MediumItalic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro-MediumItalic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro-MediumItalic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/GothamPro.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/GothamPro.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/gotham.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/gotham.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jetbrains-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/jetbrains-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Card/Card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/Plugins/shared/Card/Card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Card/Card.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/PluginCaption/PluginCaption.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/PluginCaption/PluginCaption.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/PluginDownloads/PluginDownloads.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/Plugins/shared/PluginDownloads/PluginDownloads.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/PluginDownloads/PluginDownloads.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Stars/Stars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Stars/Stars.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +142,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.12.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -110,6 +153,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -119,9 +163,11 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/fonts" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets/icons" />
+      <recent name="$PROJECT_DIR$/src/features/Plugins" />
+      <recent name="$PROJECT_DIR$/src/features/Plugins/components" />
+      <recent name="$PROJECT_DIR$/src/views" />
+      <recent name="$PROJECT_DIR$/src/api/jetbrains" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -136,14 +182,32 @@
       <workItem from="1619095246010" duration="478000" />
       <workItem from="1619350733063" duration="4092000" />
       <workItem from="1619429376089" duration="96000" />
-      <workItem from="1619819738388" duration="3029000" />
+      <workItem from="1619819738388" duration="12964000" />
+      <workItem from="1619978843935" duration="27963000" />
+      <workItem from="1620216646462" duration="261000" />
+      <workItem from="1620248349985" duration="66339000" />
     </task>
+    <task id="LOCAL-00001" summary="Initialize project using Create React App">
+      <created>1619829475903</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619829475903</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Initialize project using Create React App" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialize project using Create React App" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -1,0 +1,22 @@
+
+.container {
+  width: 385px;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+
+  &__caption {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 23px;
+    border-bottom: 1px solid #27282C;
+  }
+  &__description {
+    flex: auto;
+    padding: 22px 24px 0;
+    border-bottom: 1px solid grey;
+  }
+}

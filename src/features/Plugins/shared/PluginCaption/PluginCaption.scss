@@ -1,0 +1,21 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__caption {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+
+  }
+}
+
+.primary {}
+.secondary {}
+.img {
+  width: 71px;
+  height: 71px;
+  background: aqua;
+  border-radius: 50%;
+}

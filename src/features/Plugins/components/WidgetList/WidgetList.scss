@@ -1,0 +1,31 @@
+.caption {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 600;
+}
+
+.container {
+  padding: 70px 0 20px 0;
+}
+
+.content {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.cardStyles {
+  margin: 0 28px 24px 0;
+}
+
+.cardMockStyles {
+  width: 385px;
+  height: 310px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  &__loader {
+    width: 100px;
+    height: 100px;
+  }
+}

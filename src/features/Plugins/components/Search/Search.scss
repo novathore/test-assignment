@@ -1,0 +1,30 @@
+
+.container {
+  flex: auto;
+  display: flex;
+  height: 300px;
+  background: aquamarine;
+  align-items: center;
+  background: url('assets/background.svg');
+}
+
+.searchbar {
+  display: flex;
+  background: black;
+  flex-direction: column;
+  flex: auto;
+  height: 156px;
+  margin: 0 190px;
+  padding: 22px;
+
+  &__caption {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    padding-left: 16px;
+  }
+
+  &__input {
+    margin: 35px 14px 0 22px;
+  }
+}

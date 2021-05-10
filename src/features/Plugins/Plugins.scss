@@ -1,0 +1,27 @@
+
+.widgetList {
+  max-width: 1251px;
+  flex-wrap: wrap;
+  display: flex;
+  margin: auto;
+}
+
+@media screen and (max-width: 1255px) {
+  .Header__container {
+    padding: 0 140px;
+  }
+
+  .widgetList {
+    max-width: 835px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .Header__container {
+    padding: 0 40px;
+  }
+
+  .widgetList {
+    max-width: 390px;
+  }
+}

@@ -1,0 +1,44 @@
+.absolute {
+  position: absolute;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.flexCenter {
+  justify-content: center;
+  align-items: center;
+}
+
+$sides: (top, bottom, left, right);
+
+@mixin offsets($highValue) {
+  @for $size from 1 through $highValue {
+    @each $side in $sides {
+      .m-#{str-slice($side, 0, 1)}-#{$size} {
+        margin-#{$side}: #{$size}px !important;
+      }
+
+      .p-#{str-slice($side, 0, 1)}-#{$size} {
+        padding-#{$side}: #{$size}px !important;
+      }
+    }
+  }
+}
+
+@include offsets(25)
